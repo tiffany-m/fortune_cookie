@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 100vh;
 }
 
@@ -26,31 +27,40 @@ body {
   background-color: #ffffffe1;
   border-radius: 10px;
   padding: 20px;
-  text-align: center;
+  max-width: 450px;
 }
 
-.fortune-button {
+h1 {
+  font-size: 25px;
+}
+
+.image {
+  margin: 20px auto;
+}
+
+.fortune-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 75px;
+}
+
+.button {
   background-color: #b6f4f4;
   border: 0;
   border-radius: 10px;
-  padding: 15px 40px;
+  padding: 15px 20px;
   font-size: 15px;
   font-weight: bold;
 }
 
-.fortune-button:active {
+.button:active {
   transform: scale(0.95);
 }
 
-.fortune-button:focus {
+.button:focus {
   outline: 0;
-}
-
-.fortune-image {
-  margin: 10px auto;
-}
-
-.fortune {
-  font-size: 20px;
-  margin: 10px auto;
 }
