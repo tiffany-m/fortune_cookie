@@ -64,3 +64,19 @@ h1 {
 .button:focus {
   outline: 0;
 }
+
+@media screen and (max-width: 600px) {
+   .container {
+      width: 95%;
+   }
+
+   .image {
+     width: 100%;
+     margin: 15px 0;;
+   }
+
+   .fortune-text {
+     width: 100%;
+     margin-bottom: 10px;
+   }
+}
