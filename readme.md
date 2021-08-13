@@ -1,4 +1,4 @@
-# Fortune Cookie Generator
+# **Fortune Cookie Generator**
 No need to wait until you eat Chinese to get a fortune.  Crack open a virtual fortune cookie! 
 
 ## Directions
@@ -8,7 +8,7 @@ Click the "Open Cookie!" button to crack open a cookie and receive a random fort
 Just wanted to make a fun project to practice styling and JavaScript logic.
 
 ## Build Status
-*Complete*
+**Complete**
 
 ## Tech/Framework used
 - HTML
