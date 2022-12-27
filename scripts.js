@@ -57,5 +57,15 @@ btn_f.addEventListener('click', getFortune)
 
 function getFortune() {
   const randomNum = Math.floor(Math.random() * fortunes.length);
-  text_f.innerHTML = fortunes[randomNum].text
+  
+  if (btn_f.innerHTML === "Open Cookie!") {
+    btn_f.innerHTML = "Click to get a new cookie!";
+    image_f.src = `cookie2.png`
+    text_f.innerHTML = fortunes[randomNum].text;
+  } else {
+    btn_f.innerHTML = "Open Cookie!";
+    image_f.src = `cookie1.png`;
+    text_f.innerHTML = ''
+  }
 }
+
