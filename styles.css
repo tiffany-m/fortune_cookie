@@ -1,12 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #bae9c3,
+    #b5edd0,
+    #b2f0dd,
+    #b3f2e9,
+    #b6f4f4
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .container {
-  background-color: #fcffe9;
+  background-color: #ffffffe1;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
 }
 
 .fortune-button {
-  background-color: #caefd1;
+  background-color: #b6f4f4;
   border: 0;
   border-radius: 10px;
   padding: 15px 40px;
